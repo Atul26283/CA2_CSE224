@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+            <gradient android:angle="0"
+                android:endColor="@color/corner_color"
+                android:startColor="@color/purple_200"/>
+            <corners android:radius="20dp"/>
+            <stroke
+                android:width="1dp"
+                android:color="@color/prime_color"/>
+        </shape>
+    </item>
+
+</selector>

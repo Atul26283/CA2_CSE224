@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="#ff0">
+    <TextView
+        android:id="@+id/ca2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ca 2"
+        android:textColor="#f00"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="24sp">
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:hint="This is an edit box"
+        android:textColor="#f00"
+        android:textColorHint="#ff00">
+
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="150dp"
+        android:text="Button"
+        android:textColor="#ff00">
+
+    </Button>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="300dp">
+
+        <RadioButton
+            android:id="@+id/radio_1"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="This is Radio  button 1"
+            android:textColor="#f00" />
+
+        <RadioButton
+            android:id="@+id/radio_2"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="This is Radio button 2"
+            android:textColor="#f00"/>
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/checkBox_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#f00"
+        android:text="Check Box 1"
+        android:layout_marginTop="400dp">
+
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/checkBox_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#f00"
+        android:text="Check Box 2"
+        android:layout_marginTop="450dp">
+
+    </CheckBox>
+</RelativeLayout>
